@@ -6,5 +6,7 @@
    The function prints the value of variable finalPrice after the for-loop, while the latest value of finalPrice is calculated by Math.round(discountedPrice * 100) / 100. As previously mentioned in the response to question 2, discountedPrice is calculated as 150 in the last iteration of the for-loop. Therefore, finalPrice is calculated by Math.round(150 * 100) / 100, which is equal to 150.
 4. The array of the discounted prices, each calculated by multiplying the original price by one minus the discount rate, which is the last argument of this function, is returned by the function.
    The for-loop in the function interates through all elements in the array, passed into this function as the first element, solve for their discounted price individually, and push the calculated values to the "discounted" array. Therefore, the "discounted" array will keep track of all the calculated prices, which will be returned by the function discountPrices().
-5. 
+5. ReferenceError: i is not defined
+6. ReferenceError: discountPrice is not defined
+7. 150
    
