@@ -7,6 +7,11 @@
 4. The array of the discounted prices, each calculated by multiplying the original price by one minus the discount rate, which is the last argument of this function, is returned by the function.
    The for-loop in the function interates through all elements in the array, passed into this function as the first element, solve for their discounted price individually, and push the calculated values to the "discounted" array. Therefore, the "discounted" array will keep track of all the calculated prices, which will be returned by the function discountPrices().
 5. ReferenceError: i is not defined
+   This is because i is declared and defined using let instead of var, so it is only valid in the scope where it is declared in. When the for-loop ends, the reference to i is lost, so an error occurs.
 6. ReferenceError: discountPrice is not defined
+   Similarly, the error occurs because the reference to discountPrice is lost after the for-loop terminates. discountPrice is declared and defined using let instead of var inside the for-loop, so it becomes unreachable after the for-loop.
 7. 150
-   
+   Similar to the result in question 2, the value of finaPrice at the end of the for-loop is determined by the value of other variables in the last iteration of the loop. In the last iteration, i is equal to 2, and princes[2] becomes 300. Therefore, discountedPrice becomes 150. After applying Math.round() on 100 times 150 and divide the result by 100, the value of finalPrice becomes 150 in the end and is printed onto the console.
+8. The function will return [ 50, 100, 150 ], which is the array of all discounted price after the calculations.
+   Similar to the reason explained in the response to question 4, the array discounted keeps track of all the resultant prices determined by the input prices and the discount rate. The for loop iterates through all the prices listed in the first argument, and the function firgures out the discounted price using he equations represented by the expressions within the for-loop. All the discounted prices are being pushed onto the array discounted, which is returned by the function.
+9.  
