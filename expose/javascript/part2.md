@@ -20,3 +20,19 @@
     const variable length is recording the length of the input array prices, which has three elements in there, so 3 becomes the length of the array and is  consequently assigned to variable length.
 11. This function retunrs the the array of the discounted prices,[ 50, 100, 150 ] for the invocation on line 17. 
     The function uses a for-loop to iterate through the elements in the input prices array, which contains the original prices, solves for the discounted price in the definition of the variable discountedPrice, which is being pushed onto the array discounted. Since the array discounted is declared outside of the for-loop, it is still reachable when it is returned. Also, even though the array discounted was declared as a const type, only its reference has to remain unchanges, but it is acceptable to change the elements in it, so it will not cause an error.
+12. 
+   A. student.name
+   B. student['Grad Year']
+   C. student.greeting();
+   D. student['Favorite Teacher'].name
+   E. student.courseLoad[0]
+13. 
+   A. 32
+   B. 1
+   C. 3
+   D. 3null
+   E. 4
+   F. 0
+   G. 3undefined
+   H. NaN
+14. 
