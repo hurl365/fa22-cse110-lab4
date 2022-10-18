@@ -10,4 +10,4 @@ function doSomething(num) {
     return num * 2;
 }
 
-modifyArray([1,2,3], doSomething);
+console.log(modifyArray([1,2,3], doSomething));
