@@ -36,3 +36,10 @@
    G. 3undefined
    H. NaN
 14. 
+   A. true
+   B. false
+   C. true
+   D. false
+   E. false
+   F. true
+15. Double equal sign, ==, performs the regular equality check, which allows conversions between types. However, triple equal sign, ===, performs the strict equality checks, which will always produce false when types are different and no conversion takes place in this process.
