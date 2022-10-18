@@ -43,3 +43,5 @@
    E. false
    F. true
 15. Double equal sign, ==, performs the regular equality check, which allows conversions between types. However, triple equal sign, ===, performs the strict equality checks, which will always produce false when types are different and no conversion takes place in this process.
+16. (in part2-question16.js)
+17. 
