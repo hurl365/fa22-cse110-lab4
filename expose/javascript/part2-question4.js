@@ -1,4 +1,4 @@
-//Q3
+//Q4
 function discountPrices(prices, discount) {
     var discounted = [];
     var finalPrice = 0;

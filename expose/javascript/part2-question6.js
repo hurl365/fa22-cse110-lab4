@@ -1,4 +1,4 @@
-//Q3
+//Q6
 function discountPrices(prices, discount) {
     let discounted = [];
     let finalPrice = 0;
