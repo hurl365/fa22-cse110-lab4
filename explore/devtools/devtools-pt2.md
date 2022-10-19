@@ -1,0 +1,2 @@
+1. The bug occurs when the type of both input numbers are treated as strings instead of numbers. such as integers.
+2. I will fix the bug by converting num1 and num2 into numbers. Please refer to fix.png for details.
